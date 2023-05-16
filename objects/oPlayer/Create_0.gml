@@ -1,0 +1,10 @@
+moveSpd = 1;
+xspd = 0;
+ySpd = 0;
+cdValue = 10;
+cd = 0;
+damage = 10;
+globalvar isWarping;
+isWarping = false;
+globalvar isFighting;
+isFighting = false;

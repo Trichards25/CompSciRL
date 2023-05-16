@@ -1,0 +1,1 @@
+audio_play_sound(BlueBoyAdventure,0,true);

@@ -1,0 +1,2 @@
+isInteracting = false;
+hasPlayed = false;
