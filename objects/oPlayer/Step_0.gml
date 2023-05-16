@@ -29,3 +29,13 @@ if hInput == 0 && vInput == 0 {
 }
 //depth
 depth = -bbox_bottom;
+
+if(cd <= 0 && mouse_check_button(mb_left) && !isWarping && !global.isOnMenu){
+	cd = cdValue;
+	//audio_play_sound(aBullet, 1, false);
+	with(instance_create_layer(x,y, "instances", oBullet)){
+		direction = oGun.image_angle;
+		speed = 8;
+	}
+}
+cd--;

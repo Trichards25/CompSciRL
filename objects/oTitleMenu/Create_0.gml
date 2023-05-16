@@ -1,6 +1,6 @@
 width = 128;
 height = 104;
-
+global.isOnMenu = true;
 op_border = 8;
 op_space = 32;
 
