@@ -1,0 +1,1 @@
+draw_text_ext_transformed_color(x,y,damage, 5, 500, size, size, 0, 255, 255, 255, 255, 1);
