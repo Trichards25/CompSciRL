@@ -1,4 +1,4 @@
-window_set_fullscreen(true);
+window_set_fullscreen(false);
 global.LV = 1;
 global.BorderWidth = 570;
 global.BorderHeight = 120;

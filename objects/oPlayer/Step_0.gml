@@ -21,7 +21,7 @@ sprite_index = sprPlayerRight;
 
 }
 if aimDir > 135 && aimDir < 235 {
-sprite_index = sprPlayerLeft;	
+sprite_index = sprWizardLeft;	
 }
 if aimDir > 235 && aimDir < 335 {
  sprite_index = sprPlayerDown;	
