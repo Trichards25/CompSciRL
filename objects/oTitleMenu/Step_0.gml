@@ -18,12 +18,14 @@ if accept_key{
 	
 		//start game
 	case 0:
-		global.isOnMenu = false;
+		
 		 var inst = instance_create_depth(x,y,-99999999999,oWarp);
+		 inst.sprIndex = oPlayer.character.rightSprite;
 		 inst.targetX = 215;
 		 inst.targetY = 215;
 		 inst.targetRoom = rStartingRoom;
-		 inst.sprIndex = sprPlayerDown;
+		 global.isOnMenu = false;
+
 
 		break;
 	

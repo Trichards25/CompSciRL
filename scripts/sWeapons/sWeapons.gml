@@ -10,7 +10,7 @@ function create_weapon(_sprite, _length, _bulletObj, _cooldown, _manaCost, _shot
 	sound = _sound;
 }
 
-global.playerWeapons = array_create(0);
+global.playerWeapons = array_create();
 
 global.weaponList = {
 	baseGun : new create_weapon(
@@ -18,7 +18,7 @@ global.weaponList = {
 	sprite_get_bbox_right(sprbaseGun) - sprite_get_xoffset(sprbaseGun),
 	oBullet,
 	10,
-	2,
+	0,
 	5,
 	5,
 	aBullet),
@@ -32,6 +32,17 @@ global.weaponList = {
 	10,
 	10,
 	15,
+	aBullet),
+	
+	wand : new create_weapon(
+	sprWand,
+	sprite_get_bbox_right(sprWand) - sprite_get_xoffset(sprWand),
+	oMagicShot,
+	5,
+	2,
+	1,
+	10,
+	20,
 	aBullet)
 	
 	// Change to bow sound!!!

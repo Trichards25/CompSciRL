@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprPlayerDown",
-    "path": "sprites/sprPlayerDown/sprPlayerDown.yy",
+    "name": "sprBoyDown",
+    "path": "sprites/sprBoyDown/sprBoyDown.yy",
   },
   "spriteMaskId": null,
   "visible": true,

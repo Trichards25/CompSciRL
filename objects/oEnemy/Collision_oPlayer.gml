@@ -1,4 +1,4 @@
-if global.InvFrames < 0{
-	oPlayer.hp -= damage;
-	global.InvFrames+=30;
+if global.InvFrames <= 0{
+	oPlayer.character.hp -= dmg;
+	global.InvFrames+=2*room_speed;
 }
