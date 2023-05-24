@@ -19,16 +19,15 @@ if accept_key{
 		//start game
 	case 0:
 		
-		 var inst = instance_create_depth(x,y,-99999999999,oWarp);
-		 inst.sprIndex = oPlayer.sprite_index;
-		 inst.targetX = 0;
-		 inst.targetY = 0;
-		 inst.targetRoom = rClassChoose;
-
+		oPlayer.character = global.characterList.boy;
+		oPlayer.weapon = global.weaponList.baseGun;
+		sClassChooseSimilar();
 		break;
 	
 	case 1:
-		game_end();
+		oPlayer.character = global.characterList.wizard;
+		oPlayer.weapon = global.weaponList.wand;
+		sClassChooseSimilar();
 		break;
 	}
 }

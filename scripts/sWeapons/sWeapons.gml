@@ -21,6 +21,7 @@ global.weaponList = {
 	0,
 	5,
 	5,
+	5,
 	aBullet),
 	
 	bow : new create_weapon(
@@ -42,7 +43,7 @@ global.weaponList = {
 	2,
 	1,
 	10,
-	20,
+	10,
 	aBullet)
 	
 	// Change to bow sound!!!

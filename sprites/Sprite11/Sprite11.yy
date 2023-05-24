@@ -59,8 +59,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "CompSci RPG",
-    "path": "CompSci RPG.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

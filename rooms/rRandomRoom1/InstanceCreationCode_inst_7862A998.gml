@@ -1,0 +1,1 @@
+global.isOnMenu = false;
