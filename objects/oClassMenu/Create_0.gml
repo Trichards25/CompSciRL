@@ -1,3 +1,4 @@
+oPlayer.state = "menu";
 width = 128;
 height = 104;
 op_border = 8;

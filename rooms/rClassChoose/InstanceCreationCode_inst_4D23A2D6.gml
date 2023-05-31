@@ -1,0 +1,1 @@
+text = "Choose your class";

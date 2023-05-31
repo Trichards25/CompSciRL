@@ -1,7 +1,7 @@
 global.RoomCleared = false;
 global.waves = 0;
 global.justChanged = false;
-
+global.roomsCleared++;
 #macro TS 16
 
 var _w = ceil(room_width/TS);
