@@ -82,7 +82,6 @@
     {"name":"inst_6C172D03","path":"rooms/rRandomRoom1/rRandomRoom1.yy",},
     {"name":"inst_18C46927","path":"rooms/rRandomRoom1/rRandomRoom1.yy",},
     {"name":"inst_7CCF5617","path":"rooms/rRandomRoom1/rRandomRoom1.yy",},
-    {"name":"inst_7862A998","path":"rooms/rRandomRoom1/rRandomRoom1.yy",},
     {"name":"inst_3ED7F2FD","path":"rooms/rRandomRoom1/rRandomRoom1.yy",},
     {"name":"inst_67B4CA1E","path":"rooms/rRandomRoom1/rRandomRoom1.yy",},
     {"name":"inst_79E8E16D","path":"rooms/rRandomRoom1/rRandomRoom1.yy",},
@@ -175,7 +174,6 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CCF5617","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oRoomSetup","path":"objects/oRoomSetup/oRoomSetup.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":48.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7862A998","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGameSetup","path":"objects/oGameSetup/oGameSetup.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":112.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":26,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":14,"SerialiseWidth":18,"TileCompressedData":[
 -6,33,-2,0,-16,33,1,0,-17,33,1,0,-11,33,1,322,-16,-2147483648,

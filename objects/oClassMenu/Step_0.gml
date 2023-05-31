@@ -20,7 +20,7 @@ if accept_key{
 	case 0:
 		
 		oPlayer.character = global.characterList.boy;
-		oPlayer.weapon = global.weaponList.baseGun;
+		oPlayer.weapon = global.weaponList.bow;
 		sClassChooseSimilar();
 		break;
 	

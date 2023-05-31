@@ -1,16 +1,15 @@
 mapMax = 10;
-map = array_create(mapMax,mapMax);
+global.map = ds_grid_create(mapMax, mapMax);
 
 for(i = 0; i < mapMax; i++){
 	for (j = 0; j < mapMax; j++){
-		var add = sRooms(false, false, false, false, false, i,j,sprEmptyRoom, false);
-		map[i,j] = add;
+		global.map[i, j] = sRooms(false, false, false, false, false, i,j,sprEmptyRoom, false);
 	}
 }
 lastX = mapMax/2;
 lastY = mapMax/2;
-map[lastX,mapMax/2] = sRooms(true, false, false, false, false, mapMax/2, mapMax/2, sprStartRoom, true);
-
+global.map[lastX,mapMax/2] = sRooms(true, false, false, false, false, mapMax/2, mapMax/2, sprStartRoom, true);
+/*
 for(i = 0; i < mapMax; i++){
 	valids = sValidCheck(map, lastX, lastY);
 	connects = irandom_range(1,4);

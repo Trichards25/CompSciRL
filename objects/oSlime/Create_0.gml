@@ -1,7 +1,7 @@
 hp = random_range(10,20);
 dead = false;
 moveSpd = 0.5;
-dmg = 1;
+dmg = 3;
 upSprtie = sprGreenSlimeUp;
 leftSprite = sprGreenSlimeLeft;
 rightSprite = sprGreenSlimeRight;
