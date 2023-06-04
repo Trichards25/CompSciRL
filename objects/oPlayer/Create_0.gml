@@ -4,6 +4,8 @@ ySpd = 0;
 cdValue = 0;
 aimDir = 0;
 hasChanged = false;
+xp = 0;
+level = 1;
 
 
 globalvar isWarping;

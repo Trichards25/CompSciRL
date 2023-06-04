@@ -16,3 +16,12 @@ draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[
 draw_set_color(c_white);
 draw_set_font(fntDmg);
 draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+30,"Mana    " + string(floor(oPlayer.character.mana)) + "/" + string(oPlayer.character.maxMana));
+
+draw_set_color(c_black);
+draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+50, camera_get_view_x(view_camera[0]) + oPlayer.levl, camera_get_view_y(view_camera[0])+40, false);
+draw_set_color(c_green);
+draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+50, camera_get_view_x(view_camera[0]) + oPlayer.character.mana*2, camera_get_view_y(view_camera[0])+40, false);
+
+draw_set_color(c_white);
+draw_set_font(fntDmg);
+draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+30,"Mana    " + string(floor(oPlayer.character.mana)) + "/" + string(oPlayer.character.maxMana));

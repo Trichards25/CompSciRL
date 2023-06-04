@@ -8,29 +8,17 @@ global.roomsCleared = 0;
 global.killedSinceLastItem = 0;
 
 global.commonItems = {
-	heart : oHeart,
-	bow : oWeaponPickup
-	
-	
+	heart : oHeart	
 }
-with (global.commonItems.bow){
-	weapon = global.weaponList.bow;
-}
+
 global.rareItems = {
 	gun : oWeaponPickup
 }
-with (global.rareItems.gun){
-	weapon = global.weaponList.baseGun;
-}
+
 global.epicItems = {
 	gun : oWeaponPickup
 }
-with (global.epicItems.gun){
-	weapon = global.weaponList.baseGun;
-}
+
 global.exoticItems = {
-	wand : oWeaponPickup
-}
-with (global.exoticItems.wand){
-	weapon = global.weaponList.wand;
+	wand : oWandPickup
 }

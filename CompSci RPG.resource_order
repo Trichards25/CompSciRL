@@ -26,6 +26,7 @@
     {"name":"aBullet","order":5,"path":"sounds/aBullet/aBullet.yy",},
     {"name":"sprRoom","order":37,"path":"sprites/sprRoom/sprRoom.yy",},
     {"name":"oHeart","order":23,"path":"objects/oHeart/oHeart.yy",},
+    {"name":"oWandPickup","order":26,"path":"objects/oWandPickup/oWandPickup.yy",},
     {"name":"rFightRoom","order":3,"path":"rooms/rFightRoom/rFightRoom.yy",},
     {"name":"sprBoyLeft","order":3,"path":"sprites/sprBoyLeft/sprBoyLeft.yy",},
     {"name":"Sprite12","order":28,"path":"sprites/Sprite12/Sprite12.yy",},

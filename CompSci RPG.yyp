@@ -47,6 +47,7 @@
     {"id":{"name":"sprRoom","path":"sprites/sprRoom/sprRoom.yy",},},
     {"id":{"name":"Slime_Small_Green","path":"sprites/Slime_Small_Green/Slime_Small_Green.yy",},},
     {"id":{"name":"oHeart","path":"objects/oHeart/oHeart.yy",},},
+    {"id":{"name":"oWandPickup","path":"objects/oWandPickup/oWandPickup.yy",},},
     {"id":{"name":"rFightRoom","path":"rooms/rFightRoom/rFightRoom.yy",},},
     {"id":{"name":"sprBoyLeft","path":"sprites/sprBoyLeft/sprBoyLeft.yy",},},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},},
