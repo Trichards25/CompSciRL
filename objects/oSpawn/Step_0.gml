@@ -1,4 +1,4 @@
-if !hasSpawned && global.waves > 0 {
+if !hasSpawned && global.waves > 0{
 	pauseCount++;
 	if pauseCount >= (pauseDuration * room_speed) && spawnNum > count{
 		instance_create_layer(x+8,y+8,"Enemies", enemy);

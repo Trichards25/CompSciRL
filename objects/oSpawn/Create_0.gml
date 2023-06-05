@@ -6,3 +6,4 @@ pauseDuration = 3;
 pauseCount = pauseDuration * room_speed;
 lastWave = global.waves;
 count = 0;
+

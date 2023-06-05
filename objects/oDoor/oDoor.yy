@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprDoor",
-    "path": "sprites/sprDoor/sprDoor.yy",
+    "name": "sprDoorDown",
+    "path": "sprites/sprDoorDown/sprDoorDown.yy",
   },
   "spriteMaskId": null,
   "visible": true,
