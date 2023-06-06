@@ -9,19 +9,19 @@ draw_set_font(fntDmg);
 draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+10,"HP    " + string(oPlayer.character.hp) + "/" + string(oPlayer.character.maxHp));
 
 draw_set_color(c_black);
-draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+30, camera_get_view_x(view_camera[0]) + oPlayer.character.maxMana*2, camera_get_view_y(view_camera[0])+40, false);
+draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+20, camera_get_view_x(view_camera[0]) + oPlayer.character.maxMana*2, camera_get_view_y(view_camera[0])+30, false);
 draw_set_color(c_blue);
-draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+30, camera_get_view_x(view_camera[0]) + oPlayer.character.mana*2, camera_get_view_y(view_camera[0])+40, false);
+draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+20, camera_get_view_x(view_camera[0]) + oPlayer.character.mana*2, camera_get_view_y(view_camera[0])+30, false);
 
 draw_set_color(c_white);
 draw_set_font(fntDmg);
-draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+30,"Mana    " + string(floor(oPlayer.character.mana)) + "/" + string(oPlayer.character.maxMana));
+draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+20,"Mana    " + string(floor(oPlayer.character.mana)) + "/" + string(oPlayer.character.maxMana));
 
 draw_set_color(c_black);
-draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+50, camera_get_view_x(view_camera[0]) + oPlayer.level, camera_get_view_y(view_camera[0])+40, false);
+draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+30, camera_get_view_x(view_camera[0]) + oPlayer.xpNeeded, camera_get_view_y(view_camera[0])+40, false);
 draw_set_color(c_green);
-draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+50, camera_get_view_x(view_camera[0]) + oPlayer.character.mana*2, camera_get_view_y(view_camera[0])+40, false);
+draw_rectangle(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])+30, camera_get_view_x(view_camera[0]) + oPlayer.xp, camera_get_view_y(view_camera[0])+40, false);
 
 draw_set_color(c_white);
 draw_set_font(fntDmg);
-draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+30,"Mana    " + string(floor(oPlayer.character.mana)) + "/" + string(oPlayer.character.maxMana));
+draw_text(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+30,"Level    " + string(floor(oPlayer.level)));

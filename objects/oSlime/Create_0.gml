@@ -22,3 +22,5 @@ xDif = 0;
 yDif = 0;
 xLast = 0;
 yLast = 0;
+
+xp = irandom_range(1,5);

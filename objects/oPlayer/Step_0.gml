@@ -3,6 +3,10 @@ leftKey = (keyboard_check(ord("A")) + keyboard_check(vk_left));
 upKey = (keyboard_check(ord("W")) + keyboard_check(vk_up));
 downKey = (keyboard_check(ord("S")) + keyboard_check(vk_down));
 shootKey = mouse_check_button(mb_left);
+
+ability1 = keyboard_check_pressed(ord("1"));
+ability2 = keyboard_check_pressed(ord("2"));
+ability3 = keyboard_check_pressed(ord("3"));
 /*
 swapWeapon = keyboard_check_pressed(ord("E"));
 swapChar = keyboard_check_pressed(ord("P"));
@@ -84,3 +88,47 @@ switch(state){
 	}
 	break;
 }
+if xp >= xpNeeded {
+	level++;
+	xp -= xpNeeded;
+	xpNeeded *= 2;
+	character.maxHp += 5;
+	character.hp = character.maxHp;
+	character.maxMana+= 6;
+	character.mana = character.maxMana;
+	character.manaRegen += character.manaRegen & 0.5;
+}
+	switch(char){
+		case "boy":
+			if ability1 && level >= 3 && character.ability1Cool <= 0{
+				var _xOffset = lengthdir_x(weapon.length, aimDir);
+				var _yOffset = lengthdir_y(weapon.length, aimDir);
+					audio_play_sound(weapon.sound, 1, false);
+						audio_play_sound(weapon.sound, 1, false);
+							audio_play_sound(weapon.sound, 1, false);
+				var _bulletInst = instance_create_depth(x + _xOffset, y + _yOffset, depth-100, weapon.bulletObj);
+					with(_bulletInst){
+						dir = other.aimDir;
+					}
+				var _bulletInst = instance_create_depth(x + _xOffset, y + _yOffset, depth-100, weapon.bulletObj);
+					with(_bulletInst){
+						dir = other.aimDir;
+					}
+				var _bulletInst = instance_create_depth(x + _xOffset, y + _yOffset, depth-100, weapon.bulletObj);
+					with(_bulletInst){
+						dir = other.aimDir;
+					}
+			}if ability2 && level >= 5{
+				character.hp += 5;
+				character.mana += 5;
+			}if ability3 && level >= 7{
+				weapon.shotSpd -= 1;
+			}
+		break;
+		case "wizard":
+			
+		break;
+		}
+character.ability1Cool--;
+character.ability2Cool--;
+character.ability3Cool--;

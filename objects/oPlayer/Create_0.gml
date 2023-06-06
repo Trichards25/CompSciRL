@@ -6,7 +6,8 @@ aimDir = 0;
 hasChanged = false;
 xp = 0;
 level = 1;
-
+xpNeeded = 10;
+xp = 0;
 
 globalvar isWarping;
 isWarping = false;
@@ -17,6 +18,9 @@ state = "menu";
 
 weapon = global.weaponList.baseGun;
 character = global.characterList.boy;
+
+char = "boy";
+
 //weapons
 //array_push(global.playerWeapons, global.weaponList.baseGun);
 //array_push(global.playerWeapons, global.weaponList.bow);

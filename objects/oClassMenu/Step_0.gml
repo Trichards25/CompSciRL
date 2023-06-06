@@ -22,12 +22,14 @@ if accept_key{
 		oPlayer.character = global.characterList.boy;
 		oPlayer.weapon = global.weaponList.bow;
 		sClassChooseSimilar();
+		oPlayer.char = "boy";
 		break;
 	
 	case 1:
 		oPlayer.character = global.characterList.wizard;
 		oPlayer.weapon = global.weaponList.wand;
 		sClassChooseSimilar();
+		oPlayer.char = "wizard";
 		break;
 	}
 }
