@@ -30,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprSkeletonDown",
+    "path": "sprites/sprSkeletonDown/sprSkeletonDown.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

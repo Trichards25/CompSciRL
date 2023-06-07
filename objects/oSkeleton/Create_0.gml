@@ -4,10 +4,10 @@ moveSpd = 0.5;
 dmg = 3;
 
 //CHANGE !!!!!!
-upSprtie = sprGreenSlimeUp;
+upSprtie = sprSkeletonUp;
 leftSprite = sprGreenSlimeLeft;
 rightSprite = sprGreenSlimeRight;
-downSprite = sprGreenSlimeDown;
+downSprite = sprSkeletonDown;
 
 alert = false;
 alert_dis = 1000;

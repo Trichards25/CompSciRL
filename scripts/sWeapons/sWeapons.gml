@@ -40,7 +40,7 @@ global.weaponList = {
 	
 	wand : new create_weapon(
 	"Magic Wand",
-	sprWand,
+	sprMagicWand,
 	sprite_get_bbox_right(sprWand) - sprite_get_xoffset(sprWand),
 	oMagicShot,
 	5,
