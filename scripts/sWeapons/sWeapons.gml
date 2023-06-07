@@ -48,7 +48,42 @@ global.weaponList = {
 	2,
 	10,
 	10,
+	aBullet),
+	
+	machinegun : new create_weapon(
+	"Machine Gun",
+	sprite_machinegun,
+	sprite_get_bbox_right(sprite_machinegun) - sprite_get_xoffset(sprite_machinegun),
+	oBullet,
+	5,
+	0,
+	5,
+	2,
+	5,
+	aBullet),
+	pistol : new create_weapon(
+	"Pistol",
+	sprite_pistol,
+	sprite_get_bbox_right(sprite_pistol) - sprite_get_xoffset(sprite_pistol),
+	oBullet,
+	15,
+	0,
+	5,
+	5,
+	5,
+	aBullet),
+	sniper : new create_weapon(
+	"Sniper",
+	sprite_sniper,
+	sprite_get_bbox_right(sprite_sniper) - sprite_get_xoffset(sprite_sniper),
+	oBullet,
+	50,
+	0,
+	20,
+	40,
+	20,
 	aBullet)
+
 	
 	// Change to bow sound!!!
 }

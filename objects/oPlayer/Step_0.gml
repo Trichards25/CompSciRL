@@ -3,11 +3,11 @@ leftKey = (keyboard_check(ord("A")) + keyboard_check(vk_left));
 upKey = (keyboard_check(ord("W")) + keyboard_check(vk_up));
 downKey = (keyboard_check(ord("S")) + keyboard_check(vk_down));
 shootKey = mouse_check_button(mb_left);
-
+/*
 ability1 = keyboard_check_pressed(ord("1"));
 ability2 = keyboard_check_pressed(ord("2"));
 ability3 = keyboard_check_pressed(ord("3"));
-/*
+
 swapWeapon = keyboard_check_pressed(ord("E"));
 swapChar = keyboard_check_pressed(ord("P"));
 
@@ -98,6 +98,7 @@ if xp >= xpNeeded {
 	character.mana = character.maxMana;
 	character.manaRegen += character.manaRegen & 0.5;
 }
+/*
 	switch(char){
 		case "boy":
 			if ability1 && level >= 3 && character.ability1Cool <= 0{

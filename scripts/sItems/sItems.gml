@@ -11,9 +11,29 @@ function itemChance(){
 function dropItem(){
 	var drop = itemChance();
 	if drop{
-				var itemIndex = irandom(array_length(global.items));
-                var commonItem = global.items[itemIndex];
-                instance_create_depth(x, y, -1000, commonItem);
+		resetArray();		
+		var itemIndex = irandom(array_length(global.items)-1);
+		while(global.usedItems[itemIndex]){
+		itemIndex = irandom(array_length(global.items)-1);
+		}
+        var item = global.items[itemIndex];
+		global.usedItems[itemIndex] = true;
+        instance_create_depth(x, y, -1000, item);
 			
 	}
+}
+function checkArray(){
+	for(i = 0; i < array_length(global.usedItems);i++){
+		if !global.usedItems[i]{
+			return false;
+		}
+	}
+	return true;
+}
+function resetArray(){
+	if checkArray(){
+		for(i = 0; i < array_length(global.usedItems);i++){
+			global.usedItems[i] = false;
+		}
+}
 }
