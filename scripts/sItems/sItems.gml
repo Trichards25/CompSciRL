@@ -1,6 +1,6 @@
 function itemChance(){
  rand = irandom_range(0,100);
- if rand <=  5 * (global.roomsCleared/5) +  global.killedSinceLastItem {
+ if rand <=  5 * (global.roomsCleared/5) +  (global.killedSinceLastItem/10) {
 	 global.killedSinceLastItem = 0;
 	return true;
  }else {

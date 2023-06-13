@@ -27,7 +27,7 @@ if accept_key{
 	
 	case 1:
 		oPlayer.character = global.characterList.wizard;
-		oPlayer.weapon = global.weaponList.wand;
+		oPlayer.weapon = global.weaponList.DevGun;
 		sClassChooseSimilar();
 		oPlayer.char = "wizard";
 		break;

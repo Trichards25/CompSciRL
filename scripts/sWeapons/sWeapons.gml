@@ -50,6 +50,18 @@ global.weaponList = {
 	10,
 	aBullet),
 	
+	DevGun : new create_weapon(
+	"Dev Gun",
+	sprite_bazooka,
+	sprite_get_bbox_right(sprWand) - sprite_get_xoffset(sprWand),
+	oMagicShot,
+	0.25,
+	0,
+	5,
+	50,
+	50,
+	aBullet),
+	
 	machinegun : new create_weapon(
 	"Machine Gun",
 	sprite_machinegun,

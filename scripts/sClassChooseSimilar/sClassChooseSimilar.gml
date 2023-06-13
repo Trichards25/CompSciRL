@@ -3,10 +3,9 @@
 function sClassChooseSimilar(){
 	var inst = instance_create_depth(x,y,-99999999999,oWarp);
 		inst.sprIndex = oPlayer.character.rightSprite;
-		inst.targetX = 213;
-		inst.targetY = 215;
-		inst.targetRoom = rStartingRoom;
-		oPlayer.state = "fight";
+		inst.targetX = 720;
+		inst.targetY = 735;
+		inst.targetRoom = rBossRoom;
 		oPlayer.image_xscale = oPlayer.character.scale;
 		oPlayer.image_yscale = oPlayer.character.scale;
 }

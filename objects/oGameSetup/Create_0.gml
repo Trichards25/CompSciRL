@@ -5,6 +5,7 @@ global.SpiritSpd = 1;
 global.InvFrames = 0;
 global.roomsCleared = 0;
 global.killedSinceLastItem = 0;
+global.bossDefeated = false;
 
 global.items = array_create();
 array_push(global.items,oHeart);

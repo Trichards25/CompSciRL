@@ -3,10 +3,10 @@ dead = false;
 moveSpd = 0.5;
 dmg = 3;
 
-//CHANGE !!!!!!
+
 upSprtie = sprSkeletonUp;
-leftSprite = sprGreenSlimeLeft;
-rightSprite = sprGreenSlimeRight;
+leftSprite = sprSkeletonDown;
+rightSprite = sprSkeletonUp;
 downSprite = sprSkeletonDown;
 
 alert = false;
@@ -25,4 +25,7 @@ yDif = 0;
 xLast = 0;
 yLast = 0;
 
-xp = irandom_range(5,10);
+xp = irandom_range(10,20);
+
+image_xscale = 0.75;
+image_yscale = 0.75;

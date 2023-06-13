@@ -33,6 +33,9 @@ character = global.playerCharacters[selectedChar];
 //depth
 depth = -bbox_bottom;
 
+if character.hp <= 0
+state = "dead";
+
 cdValue--;
 if(global.InvFrames > 0 ) {
 	global.InvFrames -= 1;
@@ -86,6 +89,9 @@ switch(state){
 		dir = other.aimDir;
 	}
 	}
+	break;
+	case "dead":
+	game_end();
 	break;
 }
 if xp >= xpNeeded {
